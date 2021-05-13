@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import GitHubForkRibbon from 'react-github-fork-ribbon';
 import PropTypes from 'prop-types';
 import {withRouter, Switch, Link, Redirect, Route} from 'react-router-dom';
 
@@ -22,13 +21,6 @@ class Container extends Component {
 
     return (
       <div className={styles.container}>
-        <GitHubForkRibbon
-          href="//github.com/fullstackreact/google-maps-react"
-          position="right"
-          target="_blank"
-        >
-          Fork me on GitHub
-        </GitHubForkRibbon>
 
         <div className={styles.wrapper}>
           <div className={styles.list}>
